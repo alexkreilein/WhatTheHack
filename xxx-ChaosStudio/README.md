@@ -17,7 +17,7 @@ This “What the Hack” WTH is designed to introduce you to Azure Chaos Studios
 	 - Description of challenge
 1. Challenge 03: **[My AZ burned down, now what?](Student/Challenge-03.md)**
 	 - Description of challenge
-1. Challenge 04: **[Godzilla destroys Azure region!](Student/Challenge-04.md)**
+1. Challenge 04: **[Godzilla destroys my Azure region!](Student/Challenge-04.md)**
 	 - Description of challenge
 1. Challenge 05: **[Injecting Chaos into your pipeline](Student/Challenge-05.md)**
 	 - Description of challenge
