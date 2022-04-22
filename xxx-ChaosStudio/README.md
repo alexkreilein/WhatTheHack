@@ -12,19 +12,19 @@ This “What the Hack” WTH is designed to introduce you to Azure Chaos Studios
 
 ## Challenges
 1. Challenge 01: **[Ready Set Go](Student/Challenge-01.md)**
-	 - Description of challenge
+	 - Deploy Multi-Region Pizza (K8s based) applcation,
 1. Challenge 02: **[Is your application ready for the SuperBowl?](Student/Challenge-02.md)**
-	 - Description of challenge
+	 - How does your application handle failure during large scale events?
 1. Challenge 03: **[My AZ burned down, now what?](Student/Challenge-03.md)**
-	 - Description of challenge
+	 - Can your Application survive an Azure outtage of 1 or more Avialability Zones?
 1. Challenge 04: **[Godzilla destroys my Azure region!](Student/Challenge-04.md)**
-	 - Description of challenge
+	 - Can your Application survive a region failure? 
 1. Challenge 05: **[Injecting Chaos into your pipeline](Student/Challenge-05.md)**
 	 - Description of challenge
 
 ## Prerequisites
-- Azure subscription with Owner access
-- Visual Studio Code
+- Azure subscription with owner access
+- Visual Studio Code (can use Azure Shell)
 - Azure CLI
 - Github or Azure DevOps to automate Chaos Testing
 - Fundamentals of Chaos Engineering
