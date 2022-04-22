@@ -13,13 +13,13 @@ This “What the Hack” WTH is designed to introduce you to Azure Chaos Studios
 ## Challenges
 1. Challenge 01: **[Ready Set Go](Student/Challenge-01.md)**
 	 - Description of challenge
-1. Challenge 02: **[Description of challenge](Student/Challenge-02.md)**
+1. Challenge 02: **[Is your application ready for the SuperBowl?](Student/Challenge-02.md)**
 	 - Description of challenge
-1. Challenge 03: **[Description of challenge](Student/Challenge-03.md)**
+1. Challenge 03: **[My AZ burned down, now what?](Student/Challenge-03.md)**
 	 - Description of challenge
-1. Challenge 04: **[Description of challenge](Student/Challenge-04.md)**
+1. Challenge 04: **[Godzilla destroys Azure region!](Student/Challenge-04.md)**
 	 - Description of challenge
-1. Challenge 05: **[Description of challenge](Student/Challenge-05.md)**
+1. Challenge 05: **[Injecting Chaos into your pipeline](Student/Challenge-05.md)**
 	 - Description of challenge
 
 ## Prerequisites
