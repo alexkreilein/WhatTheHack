@@ -11,7 +11,7 @@ This “What the Hack” WTH is designed to introduce you to Azure Chaos Studios
 3. What is the Well Architected Framework
 
 ## Challenges
-1. Challenge 01: **Ready Set Go!(Student/Challenge-01.md)**
+1. Challenge 01: **[Ready Set Go](Student/Challenge-01.md)**
 	 - Description of challenge
 1. Challenge 02: **[Description of challenge](Student/Challenge-02.md)**
 	 - Description of challenge
