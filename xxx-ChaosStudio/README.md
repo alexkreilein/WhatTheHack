@@ -23,10 +23,11 @@ This “What the Hack” WTH is designed to introduce you to Azure Chaos Studios
 	 - Description of challenge
 
 ## Prerequisites
-- Your own Azure subscription with Owner access
+- Azure subscription with Owner access
 - Visual Studio Code
 - Azure CLI
-- An AVNET X231 device
+- Github or Azure DevOps to automate Chaos Testing
+- Fundamentals of Chaos Engineering
 
 ## Repository Contents (Optional)
 - `./Coach/Guides`
