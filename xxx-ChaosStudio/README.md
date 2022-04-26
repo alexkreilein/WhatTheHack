@@ -32,7 +32,7 @@ This “What the Hack” WTH is designed to introduce you to Azure Chaos Studios
 ## Repository Contents (Optional)
 - `./Coach/Guides`
   - Coach's Guide and related files
-- `./SteamShovel`
+- `./ContosoPizza`
   - Image files and code for steam shovel microservice
 - `./images`
   - Generic image files needed
@@ -40,5 +40,5 @@ This “What the Hack” WTH is designed to introduce you to Azure Chaos Studios
   - Student's Challenge Guide
 
 ## Contributors
-- Jane Q. Public
-- Joe T. Muppet
+- Jerry Rhoads
+- 
