@@ -4,7 +4,9 @@
 
 ## Pre-requisites (Optional)
 
-*Include any technical pre-requisites needed for this challenge.  Typically, it is completion of one or more of the previous challenges if there is a dependency.*
+1. Chaos Pod Failure
+2. Chaos Pod Kill
+3. Chaos VMSS failure
 
 **- Lorem ipsum dolor sit amet, consectetur adipiscing elit.**
 
