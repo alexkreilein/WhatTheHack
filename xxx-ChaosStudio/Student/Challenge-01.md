@@ -25,14 +25,12 @@ If you choose to run it from your local workstation, you need to install the fol
 - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/)
 - Kubectl (using `az aks install-cli`)
 - [Helm3](https://helm.sh/docs/intro/install/) 
-- MySQL command line client tool (or optional GUI tool mentioned below)
-- PostgreSQL command line client tool (or GUI optional tool mentioned below)
 
-You should carefully consider how much time you will need to install these tools on your own computer. Depending on your Internet and computer's speed, this additional local setup will probably take around 30-60 minutes. You will also need a text editor of your choice if it is not already installed. 
+Take into consideration how much time you will need to install these tools on your own computer. Depending on your Internet and computer's speed, this additional local setup will probably take around 30 minutes.
 
 ## Introduction
 
-Now that you have your pre-requisites set up, it is time to get the hack's environment set up.  
+Once the pre-requisites are set up, now it's time to build the hack's environment.  
 
 This hack is designed to help you learn chaos testing with Azure Chaos Studio. The hack uses a pre-canned Azure Kurbernettes (AKS) environment that you will deploy into your Azure subscription. This environment as your testing target. 
 
@@ -47,7 +45,7 @@ The Pizza Application is deployed in two steps by scripts that invoke ARM Templa
    - Download the required Resources.zip file for this hack. You should do this in Azure Cloud Shell or in an Mac/Linux/WSL environment which has the Azure CLI installed. 
    - Unzip the Resources.zip file
 
-### Deploy "on-prem" AKS Environment
+### Deploy the AKS Environment
 
 Run the following command to setup the on-prem AKS environment:
 
@@ -62,9 +60,9 @@ chmod +x ./create-cluster.sh
 
    **NOTE:** The Kubernetes cluster will consist of one container contosoappmysql. 
 
-### Deploy the Sample Applications
+### Deploy the Sample Application
 
-Deploy the Pizza applications - it will create one web application.
+Deploy the Pizza application - it will the Pizza web application.
 
 ```bash
 cd ~/Resources/HelmCharts/ContosoPizza
