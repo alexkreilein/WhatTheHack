@@ -22,7 +22,7 @@ Create (Simulate) failure at the AKS virtual Machine level
 ## Hints
 
 -  Take note of your virutal machine's instanceID
--  Take note 
+-  All scaling should be done via AKS 
 
 ## Success Criteria
 
