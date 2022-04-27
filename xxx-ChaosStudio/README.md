@@ -13,8 +13,8 @@ Chaos Studio allows you to simulate failures at various levels of your applicati
 This “What the Hack” WTH is designed to introduce you to Azure Chaos Studios and guide you through a series of hands-on challenges to accomplish the following:
   
 1. Leverage the Azure Chaos Studio to inject failure into a workload
-2. What is Chaos Engineering
-3. What is the Well Architected Framework
+2. Provide hands-on understanding of Chaos Engineering
+3. Understand how resilientcy is part of the Well Architected Framework
 
 ## Challenges
 1. Challenge 01: **[Ready Set Go](Student/Challenge-01.md)**
