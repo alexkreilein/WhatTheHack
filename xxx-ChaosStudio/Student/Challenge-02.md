@@ -1,4 +1,4 @@
-# Challenge 01 - Develop a Load Testing Strategy
+# Challenge 02 - Is your Application Resilent?
 
 **[Home](../README.md)** - [Next Challenge >](./Challenge-02.md)
 
