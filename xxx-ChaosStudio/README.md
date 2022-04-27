@@ -1,7 +1,13 @@
 # What The Hack - xxx-ChaosStudio
 
 ## Introduction
-This intro level hack will help get you hands-on experience with Azure Chaos Studios (Preview). Chaos Engineering is a concept that comes from Netflix. Netflix’s video streaming platform is a “born in the cloud” application. As it is in the cloud, Netflix doesn’t have access to hardware and facilities, as such Netflix needed to to build and test resiliency in their streaming platform. Microsoft introduces Chaos Studio to measure, understand and how to improve service/workload resilience. Chaos Studio allows you to simulate regon failure, VM and Networking issues
+This hack will help get you hands-on experience with Azure Chaos Studios (Preview). 
+
+So what is Chaos Engineering? 
+
+Chaos Engineering is a concept that comes from Netflix. Netflix’s video streaming platform is a “born in the cloud” application. As it is in the cloud, Netflix doesn’t have access to hardware and facilities, as such Netflix needed to to build and test resiliency in their streaming platform. Microsoft introduces Chaos Studio to measure, understand and how to improve service/workload resilience. 
+
+Chaos Studio allows you to simulate failures at various levels of your application or workload.
 
 ## Learning Objectives
 This “What the Hack” WTH is designed to introduce you to Azure Chaos Studios and guide you through a series of hands-on challenges to accomplish the following:
