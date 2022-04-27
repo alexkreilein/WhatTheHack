@@ -30,5 +30,5 @@ Create (Simulate) failure at the AKS virtual Machine level
 
 
 ## Learning Resources
-
+[scale AKS cluster] (https://docs.microsoft.com/en-us/azure/aks/scale-cluster)
 
