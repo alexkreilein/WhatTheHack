@@ -44,7 +44,7 @@ You have been tasked to test the resiliency of the application. The application 
 - `./Coach/Guides`
   - Coach's Guide and related files
 - `./ContosoPizza`
-  - Image files and code for steam shovel microservice
+  - Image files and code for the pizza application
 - `./images`
   - Generic image files needed
 - `./Student/Guides`
