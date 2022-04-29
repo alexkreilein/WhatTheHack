@@ -7,7 +7,7 @@ So what is Chaos Engineering?
 
 Chaos Engineering is a concept that comes from Netflix. Netflix’s video streaming platform is a “born in the cloud” application. As it is in the cloud, Netflix doesn’t have access to hardware and facilities, as such Netflix needed to to build and test resiliency in their streaming platform. Microsoft introduces Chaos Studio to measure, understand and how to improve service/workload resilience. 
 
-Chaos Studio allows you to simulate failures at various levels of your application or workload.
+Chaos Studio allows you to simulate failures at various levels of your application or workload. 
 
 ## Learning Objectives
 This “What the Hack” WTH is designed to introduce you to Azure Chaos Studios and guide you through a series of hands-on challenges to accomplish the following:
@@ -15,6 +15,10 @@ This “What the Hack” WTH is designed to introduce you to Azure Chaos Studios
 1. Leverage the Azure Chaos Studio to inject failure into a workload
 2. Provide hands-on understanding of Chaos Engineering
 3. Understand how resilientcy is part of the Well Architected Framework
+
+In this WTH, you are the system owner of the Contoso Pizza Application. Super Bowl Sunday is Contoso Pizza's busiest time of the year, the pizza ordering application must be must be avaliable during the Superb Bowl. 
+
+You have been tasked to test the resiliency of the application. The application is on Azure and you will use Chaos Studio to simulate various failures. 
 
 ## Challenges
 1. Challenge 01: **[Ready Set Go](Student/Challenge-01.md)**
@@ -33,6 +37,7 @@ This “What the Hack” WTH is designed to introduce you to Azure Chaos Studios
 - Visual Studio Code (can use Azure Shell)
 - Azure CLI
 - Github or Azure DevOps to automate Chaos Testing
+- Azure fundamentals, Vnets, NSGs, ScaleSets, Traffic Manager 
 - Fundamentals of Chaos Engineering
 
 ## Repository Contents (Optional)
