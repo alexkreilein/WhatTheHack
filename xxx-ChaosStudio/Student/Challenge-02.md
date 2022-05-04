@@ -11,7 +11,7 @@ To make Super Bowl Sunday a success, your job is to plan for possible failures t
 
 ## Description
 
-Create failure at the AKS pod level
+Create failure at the AKS pod level in your prefered region e.g. EastUS
 
 - Prepare environment for AKS failures 
 - Load and scope Chaos Experiment to the workload's web tier
@@ -24,10 +24,24 @@ Create failure at the AKS pod level
 ## Hints
 
 - verify the the "selector" in the experiment uses namespace of the application
--  TODO ADD CODE for kubectl get ns , kubectl get -n APPNAME svc, kubectl scale deployment -n APPNAME NAMESPACE --replicas=2
+- Command to view the private and public IP of the pizza application 
 
 ```bash
-./create-cluster.sh
+kubectl get -n contosoappmysql svc
+
+```
+
+- Command to view all names spaces running in the AKS cluster
+
+```bash
+kubectl get pods --all-namespaces
+
+```
+
+- Command to view all names spaces running in the AKS cluster
+
+```bash
+kubectl scale deployment -n APPNAME NAMESPACE --replicas=2
 
 ```
 
@@ -38,6 +52,8 @@ Create failure at the AKS pod level
 - Add Resliancy to the AKS pods
 - Verified Pizza Application was avalable during pod restarts
 
-## Learning Resources
+## References 
+[Simulate AKS pod failure with Chaos Studio](https://docs.microsoft.com/en-us/azure/chaos-studio/chaos-studio-tutorial-aks-portal)
+[AKS cheatsheet](./K8s_cheetsheet.md)
 
 
