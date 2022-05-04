@@ -32,11 +32,11 @@ Take into consideration how much time you will need to install these tools on yo
 
 Once the pre-requisites are set up, now it's time to build the hack's environment.  
 
-This hack is designed to help you learn chaos testing with Azure Chaos Studio. The hack uses a pre-canned Azure Kurbernettes (AKS) environment that you will deploy into your Azure subscription. This environment as your testing target. 
+This hack is designed to help you learn chaos testing with Azure Chaos Studio, versus AKS. The hack uses pre-canned Azure Kurbernettes (AKS) environments that you will deploy into your Azure subscription. 
 
-The Pizza Application runs entirely on an AKS cluster in Azure, consisting of:
- - 1 instance of the "Pizzeria" sample app
- - A MySQL database
+The Pizza Application runs in 2 Azure regions and and entirely on an AKS cluster, consisting of the following:
+ - 1 instance of the "Pizzeria" sample app (1 per region)
+ - A MySQL database (1 per region)
 
 ## Description
 
