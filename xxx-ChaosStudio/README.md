@@ -12,13 +12,13 @@ Chaos Studio allows you to simulate failures at various levels of your applicati
 ## Learning Objectives
 This “What the Hack” WTH is designed to introduce you to Azure Chaos Studios and guide you through a series of hands-on challenges to accomplish the following:
   
-1. Leverage the Azure Chaos Studio to inject failure into a workload
+1. Leverage the Azure Chaos Studio to inject failure into an application or workload
 2. Provide hands-on understanding of Chaos Engineering
 3. Understand how resilientcy is part of the Well Architected Framework
 
 In this WTH, you are the system owner of the Contoso Pizza Application. Super Bowl Sunday is Contoso Pizza's busiest time of the year, the pizza ordering application must be must be avaliable during the Superb Bowl. 
 
-You have been tasked to test the resiliency of the application. The application is on Azure and you will use Chaos Studio to simulate various failures. 
+You have been tasked to test the resiliency of the pizza application. The pizza application is on Azure and you will use Chaos Studio to simulate various failures. 
 
 ## Challenges
 1. Challenge 01: **[Ready Set Go](Student/Challenge-01.md)**
