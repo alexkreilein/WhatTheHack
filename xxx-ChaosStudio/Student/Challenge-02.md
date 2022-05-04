@@ -26,9 +26,14 @@ Create failure at the AKS pod level
 - verify the the "selector" in the experiment uses namespace of the application
 -  TODO ADD CODE for kubectl get ns , kubectl get -n APPNAME svc, kubectl scale deployment -n APPNAME NAMESPACE --replicas=2
 
+```bash
+./create-cluster.sh
+
+```
+
 ## Success Criteria
 
-- Loaded Choas Mesh on Cluster
+- Loaded Chaos Mesh on Cluster
 - Verify Pod Chaos restarted the application's AKS pod
 - Add Resliancy to the AKS pods
 - Verified Pizza Application was avalable during pod restarts
