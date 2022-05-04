@@ -35,22 +35,22 @@ Once the pre-requisites are set up, now it's time to build the hack's environmen
 This hack is designed to help you learn chaos testing with Azure Chaos Studio. The hack uses a pre-canned Azure Kurbernettes (AKS) environment that you will deploy into your Azure subscription. This environment as your testing target. 
 
 The Pizza Application runs entirely on an AKS cluster in Azure, consisting of:
- - Two instances of the "Pizzeria" sample app
+ - 1 instance of the "Pizzeria" sample app
  - A MySQL database
 
 ## Description
 
-The Pizza Application is deployed in two steps by scripts that invoke ARM Templates & Helm charts to create the AKS cluster, databases, and sample application.  Your coach will provide you with a Resources.zip file that contains the files needed to deploy the AKS environment.
+The Pizza Application is deployed in two steps by scripts that invoke ARM Templates & Helm charts to create the AKS cluster, database, and sample Pizzaria application.  Your coach will provide you with a link to the Pizzaria.zip file that contains deployment files needed to deploy the AKS environment into EastUS and WestUS. Since the end goal is to test a multi-region application, deploy the application into each region. For best results, perform all experiments in your nearest region.
 
-   - Download the required Resources.zip file for this hack. You should do this in Azure Cloud Shell or in an Mac/Linux/WSL environment which has the Azure CLI installed. 
-   - Unzip the Resources.zip file
+   - Download the required PizzariaApp.zip file for this hack. You should do this in Azure Cloud Shell or in an Mac/Linux/WSL environment which has the Azure CLI installed. 
+   - Unzip the file 
 
 ### Deploy the AKS Environment
 
-Run the following command to setup the on-prem AKS environment:
+Run the following command to setup the AKS environments (you will do this for each region):
 
 ```bash
-cd ~/Resources/ARM-Templates/KubernetesCluster
+cd ~/REGION-NAME-AKS/ARM-Templates/KubernetesCluster
 chmod +x ./create-cluster.sh
 ./create-cluster.sh
 
@@ -65,7 +65,7 @@ chmod +x ./create-cluster.sh
 Deploy the Pizza application - it will the Pizza web application.
 
 ```bash
-cd ~/Resources/HelmCharts/ContosoPizza
+cd ~/REGION-NAME/HelmCharts/ContosoPizza
 chmod +x ./*.sh
 ./deploy-pizza.sh
 
@@ -84,13 +84,12 @@ Once the applications are deployed, you will see a link to a web sites running o
 ## Success Criteria
 
 * You have a Unix/Linux Shell for setting up the Pizzeria application (e.g. Azure Cloud Shell, WSL2 bash, Mac zsh etc.)
-* You have validated that the Pizzeria application is working
+* You have validated that the Pizzeria application is working in both regions (EastUS & WestUS)
 
 
 ## Hints
 
-* The AKS "contossoappmysql" web front end has a public IP address that you can connect to. 
-* In order to obtain the public IP address, run this commands and look for the "external-IP".
+* The AKS "contossoappmysql" web front end has a public IP address that you can connect to. At this time you should create a Network Security Group on the Vnet, call is PizzaAppEastUS / PizzaAppWestUS and enable TCP port 8081 with a priority of 200 --you will need this NSG for future challenges. 
 
 ```bash
 
