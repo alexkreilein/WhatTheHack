@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Welocme to Challenage 3. How did your application do with pod failures? Are ya still in business? Now that you have tested for pod faults and have overcome with resiliency --it is time to kick it up to the next level. Godzilla is real and has destroyed an Avalability Zone in WestUS, your application is hosted in West-US and this couldn't happen at the worst time --SuperBowl Sunday and a Godzilla sighting! 
+Welocme to Challenage 3. How did your application do with pod failures? Are you still in business? Now that you have tested for pod faults and have overcome with resiliency --it is time to kick it up to the next level. Winter storms are a possiblity on Superbowl Sunday and you need to prepare for an Azure datacenter going offline. Choose your prefered region and AKS cluster to simulate an Avalability Zone failure. 
  
 
 ## Description
