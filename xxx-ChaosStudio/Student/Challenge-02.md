@@ -56,7 +56,7 @@ kubectl scale deployment -n APPNAME NAMESPACE --replicas=2
 - Verified Pizza Application was avalable during pod restarts
 
 ## References 
-[Simulate AKS pod failure with Chaos Studio](https://docs.microsoft.com/en-us/azure/chaos-studio/chaos-studio-tutorial-aks-portal)
-[AKS cheatsheet](./K8s_cheetsheet.md)
+- [Simulate AKS pod failure with Chaos Studio](https://docs.microsoft.com/en-us/azure/chaos-studio/chaos-studio-tutorial-aks-portal)
+- [AKS cheatsheet](./K8s_cheetsheet.md)
 
 
