@@ -12,7 +12,6 @@ Welocme to Challenage 3. How did your application do with pod failures? Are you 
 As the purpose of this WTH is to show Chaos Studio, we are going to pretend that an Azure Avalability Zone (datacenter) is offline. The way you will simulate this will be failing an AKS node with Chaos Studio. 
 
 - Create and Chaos Experiment to fail 1 of the pizza application's virtual machine(s)
-- 
 
 ## Food for thought
 
