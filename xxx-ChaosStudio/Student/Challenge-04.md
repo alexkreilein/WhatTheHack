@@ -37,7 +37,7 @@ As the purpose of this WTH is to show Chaos Studio, we are going to simulate a r
 - Observe any failure(s)
 - Deploy Azure's Traffic Manager 
 - Re-run experiment
-- Verify all application traffic is routing to the surviving region.
+- Verify all application traffic is routing to the surviving region
 
 
 ## References 
