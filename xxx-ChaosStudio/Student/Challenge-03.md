@@ -34,10 +34,10 @@ kubectl get pods --all-namespaces -o wide --field-selector spec.nodeName=<node>
 
 - Chaos Experiment fails the node running the pizzeria application
 - Observe any failure
-- Scale AKS cluster 
-- Scale the application to run on 2 virtual machines
-- Re-run Chaos Experiment
-- Application is functioning 
+- Scale the AKS cluster 
+- Scale the pizza application repicas to run mutiple virtual machines
+- Re-run the Chaos Experiment
+- Verify the pizza application is working
 
 
 ## References 
