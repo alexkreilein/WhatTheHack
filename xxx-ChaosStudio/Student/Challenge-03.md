@@ -41,6 +41,6 @@ kubectl get pods --all-namespaces -o wide --field-selector spec.nodeName=<node>
 
 
 ## References 
-- [scale AKS cluster] (https://docs.microsoft.com/en-us/azure/aks/scale-cluster)
-- [AKS cheatsheet] (./K8s_cheetsheet.md)
+- [scale AKS cluster](https://docs.microsoft.com/en-us/azure/aks/scale-cluster)
+- [AKS cheatsheet](./K8s_cheetsheet.md)
 
