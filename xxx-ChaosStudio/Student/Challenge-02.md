@@ -17,7 +17,7 @@ Create failure at the AKS pod level in your prefered region e.g. EastUS
 - Load and scope Chaos Experiment to the workload's web tier
 - Observe a failure of a Pod
 - Scale your application in AKS
-- Retry your experiment and fail one of the Pods
+- Retry your experiment
 
 ## Food for thought
 
