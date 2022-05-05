@@ -52,7 +52,9 @@ kubectl scale deployment -n APPNAME NAMESPACE --replicas=2
 
 - Loaded Chaos Mesh on Cluster
 - Verify Pod Chaos restarted the application's AKS pod
-- Add Resliancy to the AKS pods
+- Observe any failure in the application
+- Add Resliancy to your application
+- Re-run Chaos Experiment 
 - Verified Pizza Application was avalable during pod restarts
 
 ## References 
