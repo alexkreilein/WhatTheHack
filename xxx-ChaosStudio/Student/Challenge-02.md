@@ -52,10 +52,10 @@ kubectl scale deployment -n APPNAME NAMESPACE --replicas=2
 
 - Loaded Chaos Mesh on Cluster
 - Verify Pod Chaos restarted the application's AKS pod
-- Observe any failure in the application
+- Observe any failure in the pizaa application
 - Add Resliancy to your application
 - Re-run Chaos Experiment 
-- Verified Pizza Application was avalable during pod restarts
+- Verify pizza application is avalable during pod restarts
 
 ## References 
 - [Simulate AKS pod failure with Chaos Studio](https://docs.microsoft.com/en-us/azure/chaos-studio/chaos-studio-tutorial-aks-portal)
