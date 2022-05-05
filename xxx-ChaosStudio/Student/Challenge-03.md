@@ -37,7 +37,7 @@ kubectl get pods --all-namespaces -o wide --field-selector spec.nodeName=<node>
 - Scale the AKS cluster 
 - Scale the pizza application repicas to run mutiple virtual machines
 - Re-run the Chaos Experiment
-- Verify the pizza application is working
+- Verify the pizza application is available while a virtual machine is offline
 
 
 ## References 
