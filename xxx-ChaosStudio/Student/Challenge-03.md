@@ -21,16 +21,25 @@ As the purpose of this WTH is to show Chaos Studio, we are going to pretend that
 
 ## Hints
 
--  Find out where your pod is running
-
 -  Take note of your virutal machine's instanceID
--  All scaling should be done via AKS (not at the scale set)
+-  Verify where your pods are running (Portal or CLI)
+
+```bash
+kubectl get pods --all-namespaces -o wide --field-selector spec.nodeName=<node>
+
+```
+
+-  All virtual machine scaling should be done via AKS (not at the scale set)
 
 ## Success Criteria
 
-- L
+- Chaos Experiment fails the node running the pizzeria application
+- Scale AKS cluster 
+- Scale the application to run on 2 virtual machines
+- Re-run Chaos Experiment
 
 
-## Learning Resources
-[scale AKS cluster] (https://docs.microsoft.com/en-us/azure/aks/scale-cluster)
+## References 
+- [scale AKS cluster] (https://docs.microsoft.com/en-us/azure/aks/scale-cluster)
+- [AKS cheatsheet](./K8s_cheetsheet.md)
 
