@@ -17,7 +17,7 @@ the following:
 3. Understand how resilientcy can be achieved with Azure 
 
 In this WTH, you are the system owner of the Contoso Pizzaria Application. Super Bowl Sunday is Contoso Pizza's busiest time of the year, the pizzaria
-ordering application must be must be avaliable during the Superb Bowl. 
+ordering application must be must be avaliable during the Super Bowl. 
 
 You have been tasked to test the resiliency of the pizzaria application. The pizzaria application is running on Azure and you will use Chaos Studio to
 simulate various failures. 
