@@ -35,15 +35,16 @@ Machine layer?
 
 ## Tips
 
--  Take note of your virutal machine's instanceID
--  Verify where your pods are running (Portal or CLI)
+Take note of your virutal machine's instanceID
+
+Verify where your pods are running (Portal or CLI)
 
 ```bash
 kubectl get pods --all-namespaces -o wide --field-selector spec.nodeName=<node>
 
 ```
 
--  All virtual machine scaling should be done via AKS (not at the scale set)
+All virtual machine scaling should be done via AKS (not at the scale set)
 
 
 ## Learning Resources
