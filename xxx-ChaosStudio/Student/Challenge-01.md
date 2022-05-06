@@ -87,7 +87,7 @@ Once the applications are deployed, you will see a link to a web sites running o
 * You have validated that the Pizzeria application is working in both regions (EastUS & WestUS)
 
 
-## Tip
+## Tips
 
 * The AKS "contossoappmysql" web front end has a public IP address that you can connect to. At this time you should create a Network Security Group on the Vnet, call is PizzaAppEastUS / PizzaAppWestUS and enable (allow) TCP port 8081 priority 200 and disable (deny) TCP port 3306 priority 210  --you will need this NSG for future challenges. 
 
