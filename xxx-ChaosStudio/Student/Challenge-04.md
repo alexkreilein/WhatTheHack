@@ -30,13 +30,6 @@ the failure of a region.
 
 During the experiment, were you able to order a pizza? If not, what could you do to make your application more resiliant
 
-## Tips
-
--  To simulate region faiures think about Network Security Groups (NSG's), Did you create the NSG's from Challenge 0? 
--  Think of the other ways to simulate all compute going down in a region
--  Azure's DNS load balancer can failover DNS traffic to a surving region
--  Use [GeoPeeker](https://geopeeker.com/home/default) to verify traffic routing
-
 
 ## Success Criteria
 
@@ -45,6 +38,13 @@ During the experiment, were you able to order a pizza? If not, what could you do
 - Deploy Azure's Traffic Manager 
 - Re-run experiment
 - Verify all application traffic is routing to the surviving region
+
+## Tips
+
+-  To simulate region faiures think about Network Security Groups (NSG's), Did you create the NSG's from Challenge 0? 
+-  Think of the other ways to simulate all compute going down in a region
+-  Azure's DNS load balancer can failover DNS traffic to a surving region
+-  Use [GeoPeeker](https://geopeeker.com/home/default) to verify traffic routing
 
 
 ## Learning Resources
