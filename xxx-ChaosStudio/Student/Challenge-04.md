@@ -28,7 +28,7 @@ the failure of a region.
 
 - Create an Azure Chaos Studio's Experiment(s) that can simulate a region failure
 
-During the experiment, were you able to order a pizza? If not, what could you do to make your application resiliant
+During the experiment, were you able to order a pizza? If not, what could you do to make your application more resiliant
 
 ## Tips
 
