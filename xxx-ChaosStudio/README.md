@@ -29,10 +29,10 @@ simulate various failures.
 	 - How does your application handle failure during large scale events?
 1. Challenge 03: **[My AZ burned down, now what?](Student/Challenge-03.md)**
 	 - Can your Application survive an Azure outtage of 1 or more Avialability Zones?
-1. Challenge 04: **[Godzilla destroys my Azure region!](Student/Challenge-04.md)**
+1. Challenge 04: **[Godzilla takes out an Azure region!](Student/Challenge-04.md)**
 	 - Can your Application survive a region failure? 
 1. Challenge 05: **[Injecting Chaos into your pipeline](Student/Challenge-05.md)**
-	 - Advanced challenge, using Chaos Studios in your DevOps pipeline
+	 - Advanced challenge, using Chaos Studios in your CI/CD pipeline
 
 ## Prerequisites
 - Azure subscription with owner access
