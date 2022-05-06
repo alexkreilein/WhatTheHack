@@ -1,4 +1,4 @@
-# Challenge 0: Prerequisites - Ready, Set, GO!
+# Challenge 1: Prerequisites - Ready, Set, GO!
 
 **[Home](../README.md)** - [Next Challenge >](./01-assessment.md)
 
@@ -100,8 +100,8 @@ Once the applications are deployed, you will see a link to a web sites running o
 There are more useful kubernetes commands in the reference section below.
 
 
-## References
+## Learning Resources
 
-* [AKS cheatsheet](./K8s_cheetsheet.md)
+* [Kurbenetes cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
 
