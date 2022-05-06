@@ -4,7 +4,7 @@
 
 ## Pre-requisites
 
-- Before creating your Azure Chaos Studio Experiement, ensure you have deployed and verified the pizzaeria application is available. 
+Before creating your Azure Chaos Studio Experiement, ensure you have deployed and verified the pizzaeria application is available. 
 
 ## Introduction
 
@@ -22,6 +22,17 @@ As the purpose of this WTH is to show Chaos Studio, we are going to pretend that
 During the experiment, were you able to order a pizza? If not, what could you do to make your application resiliant at the Avalability Zone / Virtual
 Machine layer? 
 
+
+
+## Success Criteria
+
+- Chaos Experiment fails a node running the pizzeria application
+- Observe any failure
+- Scale the AKS cluster 
+- Scale the pizza application repicas to run mutiple virtual machines
+- Re-run the Chaos Experiment
+- Verify the pizza application is available while a virtual machine is offline
+
 ## Tips
 
 -  Take note of your virutal machine's instanceID
@@ -33,15 +44,6 @@ kubectl get pods --all-namespaces -o wide --field-selector spec.nodeName=<node>
 ```
 
 -  All virtual machine scaling should be done via AKS (not at the scale set)
-
-## Success Criteria
-
-- Chaos Experiment fails a node running the pizzeria application
-- Observe any failure
-- Scale the AKS cluster 
-- Scale the pizza application repicas to run mutiple virtual machines
-- Re-run the Chaos Experiment
-- Verify the pizza application is available while a virtual machine is offline
 
 
 ## Learning Resources
