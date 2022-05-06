@@ -55,3 +55,5 @@ simulate various failures.
 
 ## Contributors
 - Jerry Rhoads
+- Kevin Gates
+- Andy Huang
