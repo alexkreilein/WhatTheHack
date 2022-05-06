@@ -5,8 +5,8 @@
 
 ## Pre-requisites
 
-Before creating your Azure Chaos Studio Experiement, ensure you have deployed and verified the pizzaeria application is available in both regions EastUS
-and WestUS
+Before creating your Azure Chaos Studio Experiement, ensure you have deployed and verified the pizzaeria application is available in both regions (EastUS
+and WestUS)
 
 ## Introduction
 
