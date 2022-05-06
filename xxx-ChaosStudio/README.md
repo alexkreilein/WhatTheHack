@@ -32,7 +32,7 @@ simulate various failures.
 1. Challenge 04: **[Godzilla destroys my Azure region!](Student/Challenge-04.md)**
 	 - Can your Application survive a region failure? 
 1. Challenge 05: **[Injecting Chaos into your pipeline](Student/Challenge-05.md)**
-	 - Description of challenge
+	 - Advanced challenge, using Chaos Studios in your DevOps pipeline
 
 ## Prerequisites
 - Azure subscription with owner access
