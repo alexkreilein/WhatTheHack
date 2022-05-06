@@ -1,24 +1,26 @@
 # What The Hack - xxx-ChaosStudio
 
-## Introduction
-This hack will help get you hands-on experience with Azure Chaos Studios (Preview). 
+## Introduction 
 
-So what is Chaos Engineering? 
+Azure Chaos Studio (Preview) is a managed service for improving resilience by injecting faults into your Azure applications. Running controlled fault
+injection
+experiments against your applications, a practice known as chaos engineering, helps you to measure, understand, and improve resilience against real-world
+incidents, such as a region outages or application failures causing high CPU utilization on a VMs, ScaleSets, and Azure Kubernetes.
 
-Chaos Engineering is a concept that comes from Netflix. Netflix’s video streaming platform is a “born in the cloud” application. As it is in the cloud, Netflix doesn’t have access to hardware and facilities, as such Netflix needed to to build and test resiliency in their streaming platform. Microsoft introduces Chaos Studio to measure, understand and how to improve service/workload resilience. 
-
-Chaos Studio allows you to simulate failures at various levels of your application or workload. 
 
 ## Learning Objectives
-This “What the Hack” WTH is designed to introduce you to Azure Chaos Studios and guide you through a series of hands-on challenges to accomplish the following:
+This “What the Hack” WTH is designed to introduce you to Azure Chaos Studios (Preview) and guide you through a series of hands-on challenges to accomplish
+the following:
   
-1. Leverage the Azure Chaos Studio to inject failure into an application or workload
-2. Provide hands-on understanding of Chaos Engineering
-3. Understand how resilientcy is part of the Well Architected Framework
+1. Leverage the Azure Chaos Studio to inject failure into an application/workload
+2. Provide hands-on understanding of Chaos Engineering 
+3. Understand how resilientcy can be achieved with Azure 
 
-In this WTH, you are the system owner of the Contoso Pizza Application. Super Bowl Sunday is Contoso Pizza's busiest time of the year, the pizza ordering application must be must be avaliable during the Superb Bowl. 
+In this WTH, you are the system owner of the Contoso Pizzaria Application. Super Bowl Sunday is Contoso Pizza's busiest time of the year, the pizza
+ordering application must be must be avaliable during the Superb Bowl. 
 
-You have been tasked to test the resiliency of the pizza application. The pizza application is on Azure and you will use Chaos Studio to simulate various failures. 
+You have been tasked to test the resiliency of the pizza application. The pizzaria application is running on Azure and you will use Chaos Studio to
+simulate various failures. 
 
 ## Challenges
 1. Challenge 01: **[Ready Set Go](Student/Challenge-01.md)**
@@ -34,11 +36,12 @@ You have been tasked to test the resiliency of the pizza application. The pizza 
 
 ## Prerequisites
 - Azure subscription with owner access
-- Visual Studio Code (can use Azure Shell)
-- Azure CLI
+- Visual Studio Code terminal or Azure Shell (recommended)
+- Latest Azure CLI (if not using Azure Shell) 
 - Github or Azure DevOps to automate Chaos Testing
 - Azure fundamentals, Vnets, NSGs, ScaleSets, Traffic Manager 
 - Fundamentals of Chaos Engineering
+- Basic understanding of Kubernetes (kubectl commands)
 
 ## Repository Contents (Optional)
 - `./Coach/Guides`
@@ -52,4 +55,3 @@ You have been tasked to test the resiliency of the pizza application. The pizza 
 
 ## Contributors
 - Jerry Rhoads
-- 
