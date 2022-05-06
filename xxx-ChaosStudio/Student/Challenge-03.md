@@ -8,7 +8,9 @@ Before creating your Azure Chaos Studio Experiement, ensure you have deployed an
 
 ## Introduction
 
-Welcome to Challenage 3. How did your application perform with pod failures? Are you still in business? Now that you have tested for pod faults and have
+Welcome to Challenage 3. 
+
+How did your application perform with pod failures? Are you still in business? Now that you have tested for pod faults and have
 overcome with resiliency at the pod level --it is time to kick it up to the next level. Winter storms are a possiblity on Superbowl Sunday and you need to
 prepare for an Azure datacenter going offline. Choose your prefered region and AKS cluster to simulate an Avalability Zone failure. 
  
