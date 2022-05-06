@@ -10,7 +10,7 @@ and WestUS
 
 ## Introduction
 
-Welocme to Challenage 4. 
+Welcome to Challenage 4. 
 
 So far you have tested failures with Contoso Pizza's AKS pod(s), AKS node(s), and now it is time to test failures at the regional
 level. 
