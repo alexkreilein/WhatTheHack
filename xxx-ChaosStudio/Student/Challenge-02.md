@@ -8,6 +8,8 @@ Before creating your Azure Chaos Studio Experiement, ensure you have deployed an
 
 ## Introduction
 
+Welcome to Challenge 2.
+
 In this challenge you will simulate failure in your compute tier. It is Super Bowl Sunday and you are the system owner of Contoso Pizza's pizza ordering
 workload. This workload is hosted in Azure's Kubernettes Service (AKS). SuperBowl Sunday is Contoso Pizza's busiest day of the year. 
 To make Super Bowl Sunday a success, your job is to plan for possible failures that could occur during the Superbowl event.  
