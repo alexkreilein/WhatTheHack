@@ -4,7 +4,7 @@
 
 ## Pre-requisites
 
-- Before creating your Azure Chaos Studio Experiement, ensure you have deployed and verified the pizzaeria application is available. 
+Before creating your Azure Chaos Studio Experiement, ensure you have deployed and verified the pizzaeria application is available. 
 
 ## Introduction
 
@@ -22,6 +22,16 @@ Create failure at the AKS pod level in your prefered region e.g. EastUS
 - Observe the failure
 
 During the experiment, were you able to order a pizza? If not, what could you do to make your application resiliant at the POD layer?  
+
+
+## Success Criteria
+
+- Loaded Chaos Mesh on Cluster
+- Verify Pod Chaos restarted the application's AKS pod
+- Observe any failure in the pizaa application
+- Add Resliancy to your application
+- Re-run Chaos Experiment 
+- Verify pizza application is avalable during pod restarts
 
 ## Tips
 
@@ -46,15 +56,6 @@ kubectl get pods --all-namespaces
 kubectl scale deployment -n APPNAME NAMESPACE --replicas=2
 
 ```
-
-## Success Criteria
-
-- Loaded Chaos Mesh on Cluster
-- Verify Pod Chaos restarted the application's AKS pod
-- Observe any failure in the pizaa application
-- Add Resliancy to your application
-- Re-run Chaos Experiment 
-- Verify pizza application is avalable during pod restarts
 
 ## Learning Resources  
 - [Simulate AKS pod failure with Chaos Studio](https://docs.microsoft.com/en-us/azure/chaos-studio/chaos-studio-tutorial-aks-portal)
