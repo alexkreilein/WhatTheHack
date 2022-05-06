@@ -35,22 +35,23 @@ During the experiment, were you able to order a pizza? If not, what could you do
 
 ## Tips
 
-- verify the the "selector" in the experiment uses namespace of the application
-- Command to view the private and public IP of the pizza application 
+verify the the "selector" in the experiment uses namespace of the application
+
+Command to view the private and public IP of the pizza application 
 
 ```bash
 kubectl get -n contosoappmysql svc
 
 ```
 
-- Command to view all names spaces running in the AKS cluster
+Command to view all names spaces running in the AKS cluster
 
 ```bash
 kubectl get pods --all-namespaces
 
 ```
 
-- Command to view all names spaces running in the AKS cluster
+Command to view all names spaces running in the AKS cluster
 
 ```bash
 kubectl scale deployment -n APPNAME NAMESPACE --replicas=2
