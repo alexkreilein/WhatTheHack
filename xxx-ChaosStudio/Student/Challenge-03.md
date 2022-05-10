@@ -45,6 +45,10 @@ Verify where your pods are running (Portal or CLI)
 kubectl get pods --all-namespaces -o wide --field-selector spec.nodeName=<node>
 
 ```
+```bash
+kubectl scale statefulset -n contosoappmysql contosopizza --replicas=2
+
+```
 
 All virtual machine scaling should be done via AKS (not at the scale set)
 
