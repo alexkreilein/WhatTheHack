@@ -46,7 +46,7 @@ simulate various failures.
 ## Repository Contents (Optional)
 - `./Coach/Guides`
   - Coach's Guide and related files
-- `./ContosoPizza`
+- `./ContosoPizzaApp`
   - Image files and code for the pizza application
 - `./images`
   - Generic image files needed
