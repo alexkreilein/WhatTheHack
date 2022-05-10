@@ -42,16 +42,17 @@ Take note of your virutal machine's instanceID
 Verify where your pods are running (Portal or CLI)
 
 ```bash
-kubectl scale statefulset -n contosoappmysql contosopizza --replicas=2
+kubectl get pods --all-namespaces -o wide --field-selector spec.nodeName=<node>
 
 ```
 
 Scale your Kubernetes environment (hint it is a statefull deployment)
 
 ```bash
-kubectl get pods --all-namespaces -o wide --field-selector spec.nodeName=<node>
+kubectl scale statefulset -n contosoappmysql contosopizza --replicas=2
 
 ```
+
 
 All virtual machine scaling should be done via AKS (not at the scale set)
 
