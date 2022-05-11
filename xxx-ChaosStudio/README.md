@@ -48,8 +48,6 @@ simulate various failures.
   - Coach's Guide and related files
 - `./ContosoPizzaApp`
   - Image files and code for the pizza application
-- `./images`
-  - Generic image files needed
 - `./Student/Guides`
   - Student's Challenge Guide
 
