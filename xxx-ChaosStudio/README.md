@@ -24,7 +24,7 @@ simulate various failures.
 
 ## Challenges
 1. Challenge 01: **[Ready Set Go](Student/Challenge-01.md)**
-	 - Deploy the multi-region Kurbernetes pizzaria applcation,
+	 - Deploy the multi-region Kurbernetes pizzaria application,
 1. Challenge 02: **[Is your application ready for the SuperBowl?](Student/Challenge-02.md)**
 	 - How does your application handle failure during large scale events?
 1. Challenge 03: **[My AZ burned down, now what?](Student/Challenge-03.md)**
