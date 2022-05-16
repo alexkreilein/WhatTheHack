@@ -11,10 +11,14 @@ In this challenge you will conduct a chaos experiment in your CI/CD pipline.
 You can use the Contoso Pizzaria application or deploy something a little more simple. 
 
 
+## Tip
+1. You want the application to be available or in a healhty state during failure.
+2. What kinds of faults and remdiations come to mind from the previous challenges? 
+
 ## Success Criteria
 
-- Chaos Studio injects faults in your deployment pipeline
-- An Application deploys via CI/CD pipleine
+- Chaos Studio injects faults into your application
+- Your test application remains healthy during the Chaos Experiment. 
 
 
 ## Learning Resources 
