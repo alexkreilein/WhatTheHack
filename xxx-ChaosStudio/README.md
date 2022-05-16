@@ -28,11 +28,11 @@ simulate various failures.
 1. Challenge 02: **[Is your application ready for the SuperBowl?](Student/Challenge-02.md)**
 	 - How does your application handle failure during large scale events?
 1. Challenge 03: **[My AZ burned down, now what?](Student/Challenge-03.md)**
-	 - Can your Application survive an Azure outtage of 1 or more Avialability Zones?
+	 - Can your application survive an Azure outtage of 1 or more Avialability Zones?
 1. Challenge 04: **[Godzilla takes out an Azure region!](Student/Challenge-04.md)**
-	 - Can your Application survive a region failure? 
+	 - Can your application survive a region failure? 
 1. Challenge 05: **[Injecting Chaos into your pipeline](Student/Challenge-05.md)**
-	 - Advanced challenge, using Chaos Studios in your CI/CD pipeline
+	 - Advanced challenge, using Chaos Studio experiments in your CI/CD pipeline
 
 ## Prerequisites
 - Azure subscription with owner access
