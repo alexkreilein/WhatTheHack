@@ -43,7 +43,7 @@ simulate various failures.
 - Fundamentals of Chaos Engineering
 - Basic understanding of Kubernetes (kubectl commands)
 
-## Repository Contents (Optional)
+## Repository Contents
 - `./Coach/Guides`
   - Coach's Guide and related files
 - `./ContosoPizzaApp`
