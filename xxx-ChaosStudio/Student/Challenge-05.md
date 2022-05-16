@@ -16,7 +16,7 @@ Run your experiments in Dev/Test, do not run in Prod.
 
 ## Tip
 1. You want your application to be available (healhty state) during failure.
-2. What kinds of faults and remdiations come to mind from the previous challenges? 
+2. What kinds of faults and remediations come to mind from the previous challenges? 
 
 ## Success Criteria
 
