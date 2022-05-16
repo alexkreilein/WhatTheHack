@@ -1,4 +1,4 @@
-# Challenge 05 - Injecting Chaos into your CI/CD pipeline
+# Challenge 05 - [Optional] Injecting Chaos into your CI/CD pipeline
 
 [< Previous Challenge](./Challenge-04.md) - **[Home](../README.md)**
 
@@ -7,18 +7,19 @@ To comlete this challenge you will need an automation serice such as Github, Azu
 
 
 ## Description
-In this challenge you will conduct a chaos experiment in your CI/CD pipline. 
-You can use the Contoso Pizzaria application or deploy something a little more simple. 
+In this challenge you will conduct a chaos experiment in your CI/CD pipline.
+You will tale one of your corproate applications and add Chaos to its deployment pipeline.
+Stay in Dev/Test, do not run in Prod.
 
 
 ## Tip
-1. You want the application to be available or in a healhty state during failure.
+1. You want your application to be available or in a healhty state during failure.
 2. What kinds of faults and remdiations come to mind from the previous challenges? 
 
 ## Success Criteria
 
 - Chaos Studio injects faults into your application
-- Your test application remains healthy during the Chaos Experiment. 
+- Your your application remains healthy during the Chaos Experiment. 
 
 
 ## Learning Resources 
