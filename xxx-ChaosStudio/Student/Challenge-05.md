@@ -20,7 +20,7 @@ Run your experiments in Dev/Test, do not run in Prod.
 
 ## Success Criteria
 
-- Chaos Studio injects fault()s into your application.
+- Chaos Studio injects fault(s) into your application.
 - Your your application remains healthy during the Chaos Experiment. 
 
 ## Learning Resources 
