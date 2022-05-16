@@ -14,7 +14,7 @@ You will take one of your corproate applications and add chaos experiments to it
 Run your experiments in Dev/Test, do not run in Prod.
 
 
-## Tip
+## Tips
 1. You want your application to be available (healhty state) during failure.
 2. What kinds of faults and remediations come to mind from the previous challenges? 
 
