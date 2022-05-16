@@ -22,7 +22,7 @@ do?
 
 ## Description
 
-As the purpose of this WTH is to show Chaos Studio, we are going to simulate a region failure. As you have deployed the pizzaria application in 2 regions
+As the purpose of this WTH is to demonstrate Chaos Studio, we are going to simulate a region failure. As you have deployed the pizzaria application in 2 regions
 (EastUS / WestUS). As we are hacking on Azure's Chaos Studio, we are pretending the databases are in sync and we are showing how Chaos Studio can simulate
 the failure of a region.   
 
