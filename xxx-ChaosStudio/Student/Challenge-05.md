@@ -7,6 +7,9 @@ To comlete this challenge you will use one of your Company's applications.
 You should have a preexisting (Dev/Test) application and/or CI/CD pipeline. 
 Run your experiment(s) in Dev/Test, do not run in Prod.
 
+## Introduction
+THis is where the rubber meets the road. You will take what you have learned from the previous challanges and apply them here. 
+
 
 ## Description
 In this challenge you will conduct a chaos experiment in your CI/CD pipline.
